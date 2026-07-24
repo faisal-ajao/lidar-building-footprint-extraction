@@ -57,8 +57,7 @@ lidar-building-footprint-extraction/
 │   └── point_cloud.xyz
 │
 ├── outputs/
-│   ├── filtered_point_cloud.ply
-│   └── building_footprint.png
+│   └── README.md
 │
 ├── assets/
 │   ├── original_point_cloud.png
