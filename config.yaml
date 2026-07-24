@@ -1,0 +1,24 @@
+# Data
+datasets:
+  point_cloud: "data/point_cloud.xyz"
+
+# Preprocessing
+preprocessing:
+  downsample_step: 2
+
+# Point of Interest
+poi:
+  radius: 50
+
+# Voxelization
+voxel:
+  size: 2
+
+# Classification of Interest
+classification:
+  building: 6
+
+# Output
+output:
+  filtered_point_cloud: "outputs/filtered_point_cloud.ply"
+  footprint_image: "outputs/building_footprint.png"
